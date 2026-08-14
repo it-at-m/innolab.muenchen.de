@@ -65,7 +65,8 @@ export default defineConfig({
     ],
 
     footer: {
-      message: 'Made with ❤ by it@M | <a href="/impressum">Impressum & Datenschutz</a>',
+      message:
+        'Made with ❤ by it@M | <a href="/impressum">Impressum & Datenschutz</a>',
     },
   },
 });

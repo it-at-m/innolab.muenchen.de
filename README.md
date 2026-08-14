@@ -1,56 +1,57 @@
-## Customize this file after creating the new REPO and remove this lines.
+# innolab.muenchen.de
 
-What to adjust:
+<p align="center">
+  <a href="https://opensource.muenchen.de/">
+    <img src="https://img.shields.io/badge/made%20with%20%E2%9D%A4%20by-it%40M-yellow?style=for-the-badge" alt="Made with love by it@M" />
+  </a>
+</p>
 
-- Add the your project or repo name direct under the logo.
-- Add a short and long desciption.
-- Add links for your final repo to report a bug or request a feature.
-- Add list of used technologies.
-- If you have, add a roadmap or remove this section.
-- Fill up the section for set up and documentation.
-- Start in this file only with documentation and link to the docs folder.
-- Add more project shields. Use [shields.io](https://shields.io/) with style `for-the-badge`.
-
-## ------- end to remove -------
-
-<!-- add Project Logo, if existing -->
-
-# repo or project name
-
-[![Made with love by it@M][made-with-love-shield]][itm-opensource]
 <!-- feel free to add more shields, style 'for-the-badge' -> see https://shields.io/badges -->
 
-_Add a description from your project here._
-
-### Built With
-
-The documentation project is built with technologies we use in our projects:
-
-- _write here the list of used technologies_
-
-## Roadmap
-
-_if you have a ROADMAP for your project add this here_
-
-See the [open issues](#) for a full list of proposed features (and known issues).
+Website of the InnoLab München
 
 ## Set up
 
-_how can i start and fly this project_
+Requirement: Node.js `>=20 <=24`.
 
-## Documentation
-
-_what insights do you have to tell_
-
-```mermaid
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
+```bash
+npm install     # install dependencies
+npm run dev     # start development server
 ```
 
-use [diagrams](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams).
+The dev server then runs at `http://localhost:5173`.
+
+Other commands:
+
+```bash
+npm run build     # generate the production build
+npm run preview   # preview the production build locally
+npm run lint      # check formatting (Prettier)
+npm run format    # automatically fix formatting (Prettier)
+```
+
+Made with [VitePress](https://vitepress.dev/)
+
+## Structure
+
+```text
+innolab.muenchen.de/
+├── .vitepress/
+│   └── config.mts       → navigation, sidebar, meta
+├── index.md              → home page
+├── projekte/              → project overview + individual projects
+├── hackathons/            → hackathon overview, framework conditions, individual entries
+├── blog/                  → blog posts
+└── team/                  → team page
+```
+
+New content pages are added as a Markdown file in the respective folder and linked in the
+sidebar configuration (`.vitepress/config.mts`).
+
+## Deployment
+
+The site is automatically built via GitHub Actions (`.github/workflows/deploy-pages.yml`) and
+deployed to GitHub Pages on every push to `main`.
 
 ## Contributing
 
@@ -75,8 +76,3 @@ Distributed under the MIT License. See [LICENSE](LICENSE) file for more informat
 ## Contact
 
 it@M - opensource@muenchen.de
-
-<!-- project shields / links -->
-
-[made-with-love-shield]: https://img.shields.io/badge/made%20with%20%E2%9D%A4%20by-it%40M-yellow?style=for-the-badge
-[itm-opensource]: https://opensource.muenchen.de/

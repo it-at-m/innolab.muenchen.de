@@ -1,0 +1,18 @@
+{
+  "type": "module",
+  "engines": {
+    "node": ">=20 <=24"
+  },
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview",
+    "lint": "prettier . --check",
+    "format": "prettier . --write"
+  },
+  "devDependencies": {
+    "@muenchen/prettier-codeformat": "^1.0.2",
+    "markdownlint-cli2": "^0.23.2",
+    "vitepress": "^1.6.4"
+  }
+}

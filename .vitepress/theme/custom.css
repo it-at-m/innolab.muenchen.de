@@ -1,0 +1,4 @@
+/* Slightly enlarge the nav logo (VitePress default is 24px). */
+:root {
+  --vp-nav-logo-height: 32px;
+}

@@ -9,6 +9,11 @@ export default defineConfig({
   srcExclude: ["README.md", "CODE_OF_CONDUCT.md", "LICENSE", "LICENSE.md"],
 
   themeConfig: {
+    logo: {
+      light: "/images/logo.svg",
+      dark: "/images/logo_white.svg",
+    },
+
     nav: [
       { text: "Home", link: "/" },
       { text: "Projekte", link: "/projekte/" },

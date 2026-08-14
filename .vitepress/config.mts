@@ -9,9 +9,53 @@ export default defineConfig({
   srcExclude: ["README.md", "CODE_OF_CONDUCT.md", "LICENSE", "LICENSE.md"],
 
   themeConfig: {
-    nav: [{ text: "Home", link: "/" }],
+    nav: [
+      { text: "Home", link: "/" },
+      { text: "Projekte", link: "/projekte/" },
+      { text: "Hackathons", link: "/hackathons/" },
+      { text: "Blog", link: "/blog/" },
+      { text: "Team", link: "/team/" },
+    ],
 
-    sidebar: [],
+    sidebar: {
+      "/projekte/": [
+        {
+          text: "Projekte",
+          items: [
+            { text: "Übersicht", link: "/projekte/" },
+            { text: "Beispielprojekt", link: "/projekte/beispielprojekt" },
+          ],
+        },
+      ],
+      "/hackathons/": [
+        {
+          text: "Hackathons",
+          items: [
+            { text: "Übersicht", link: "/hackathons/" },
+            {
+              text: "Rahmenbedingungen",
+              link: "/hackathons/rahmenbedingungen",
+            },
+            {
+              text: "Beispiel-Hackathon",
+              link: "/hackathons/beispiel-hackathon",
+            },
+          ],
+        },
+      ],
+      "/blog/": [
+        {
+          text: "Blog",
+          items: [
+            { text: "Übersicht", link: "/blog/" },
+            {
+              text: "Beispielbeitrag",
+              link: "/blog/2026-01-01-beispielbeitrag",
+            },
+          ],
+        },
+      ],
+    },
 
     socialLinks: [
       {
@@ -21,7 +65,8 @@ export default defineConfig({
     ],
 
     footer: {
-      message: "Made with ❤ by it@M",
+      message:
+        'Made with ❤ by it@M | <a href="/impressum">Impressum & Datenschutz</a>',
     },
   },
 });

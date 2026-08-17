@@ -3,7 +3,7 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   title: "InnoLab München",
   description: "Website des InnoLab München",
-  base: "/innolab.muenchen.de/",
+  base: "/",
 
   // Repo-root files that are not part of the website
   srcExclude: ["README.md", "CODE_OF_CONDUCT.md", "LICENSE", "LICENSE.md"],

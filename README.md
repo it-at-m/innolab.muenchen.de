@@ -39,7 +39,8 @@ Made with [VitePress](https://vitepress.dev/)
 ```text
 innolab.muenchen.de/
 ├── .vitepress/
-│   └── config.mts        → navigation, sidebar, meta
+│   ├── config.mts        → navigation, sidebar, meta
+│   └── theme/            → custom theme and styling
 ├── public/                → static assets (images, favicon, …), served from site root
 ├── index.md              → home page
 ├── projekte/              → project overview + individual projects

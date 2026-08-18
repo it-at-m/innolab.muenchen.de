@@ -8,15 +8,14 @@
     "build": "vitepress build",
     "preview": "vitepress preview",
     "lint": "prettier . --check",
-    "format": "prettier . --write"
+    "fix": "prettier . --write"
   },
   "devDependencies": {
-    "@muenchen/prettier-codeformat": "^1.0.2",
-    "markdownlint-cli2": "^0.23.2",
-    "vitepress": "^1.6.4",
-    "vue": "^3.5.41"
+    "@muenchen/prettier-codeformat": "1.0.2",
+    "vitepress": "1.6.4",
+    "vue": "3.5.41"
   },
   "dependencies": {
-    "@lucide/vue": "^1.31.0"
+    "@lucide/vue": "1.31.0"
   }
 }

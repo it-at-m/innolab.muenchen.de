@@ -1,5 +1,7 @@
 import { defineConfig } from "vitepress";
 
+const base = "/innolab.muenchen.de/";
+
 export default defineConfig({
   title: "it@M InnoLab",
   description: "Website des InnoLab München",
@@ -14,7 +16,7 @@ export default defineConfig({
       {
         rel: "icon",
         type: "image/svg+xml",
-        href: `$/images/logo.svg`,
+        href: `${base}images/logo.svg`,
         media: "(prefers-color-scheme: light)",
       },
     ],
@@ -23,7 +25,7 @@ export default defineConfig({
       {
         rel: "icon",
         type: "image/svg+xml",
-        href: `$/images/logo_white.svg`,
+        href: `${base}images/logo_white.svg`,
         media: "(prefers-color-scheme: dark)",
       },
     ],

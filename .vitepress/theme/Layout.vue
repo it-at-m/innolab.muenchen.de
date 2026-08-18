@@ -13,7 +13,7 @@ const { Layout } = DefaultTheme;
     </template>
     <template #home-hero-image>
       <div style="width: 360px; margin-left: 220px">
-        <AnimatedLogo duration=0.8 />
+        <AnimatedLogo duration="0.8" />
       </div>
     </template>
   </Layout>

@@ -43,7 +43,10 @@ export default defineConfig({
       { text: "Team", link: "/team/" },
     ],
     socialLinks: [
-      { icon: "github", link: "https://github.com/it-at-m/innolab.muenchen.de" },
+      {
+        icon: "github",
+        link: "https://github.com/it-at-m/innolab.muenchen.de",
+      },
     ],
 
     footer: {

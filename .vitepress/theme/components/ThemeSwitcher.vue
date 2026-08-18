@@ -13,7 +13,11 @@ type Palette = "official" | "amber" | "blue";
 const STORAGE_KEY = "innolab-palette";
 
 const palettes: { id: Palette; swatch: string; title: string }[] = [
-  { id: "official", swatch: "#1e6cff", title: "München.Digital. (Umbragrau/Blau/Türkis)" },
+  {
+    id: "official",
+    swatch: "#1e6cff",
+    title: "München.Digital. (Umbragrau/Blau/Türkis)",
+  },
   { id: "amber", swatch: "#f0c04b", title: "Braun + Gelb-Akzent" },
   { id: "blue", swatch: "#6fa8d6", title: "Braun + Blau + Gelb-Mini-Akzent" },
 ];
@@ -37,7 +41,9 @@ onMounted(() => {
   } catch {
     // ignore
   }
-  const initial = palettes.some((p) => p.id === saved) ? (saved as Palette) : "official";
+  const initial = palettes.some((p) => p.id === saved)
+    ? (saved as Palette)
+    : "official";
   apply(initial);
 });
 </script>

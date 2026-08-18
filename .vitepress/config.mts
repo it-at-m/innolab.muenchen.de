@@ -1,11 +1,9 @@
 import { defineConfig } from "vitepress";
 
-const base = "/innolab.muenchen.de/";
-
 export default defineConfig({
-  title: "InnoLab München",
+  title: "it@M InnoLab",
   description: "Website des InnoLab München",
-  base,
+  base: "/",
 
   // Repo-root files that are not part of the website
   srcExclude: ["README.md", "CODE_OF_CONDUCT.md", "LICENSE", "LICENSE.md"],
@@ -16,7 +14,7 @@ export default defineConfig({
       {
         rel: "icon",
         type: "image/svg+xml",
-        href: `${base}images/logo.svg`,
+        href: `$/images/logo.svg`,
         media: "(prefers-color-scheme: light)",
       },
     ],
@@ -25,7 +23,7 @@ export default defineConfig({
       {
         rel: "icon",
         type: "image/svg+xml",
-        href: `${base}images/logo_white.svg`,
+        href: `$/images/logo_white.svg`,
         media: "(prefers-color-scheme: dark)",
       },
     ],
@@ -38,58 +36,14 @@ export default defineConfig({
     },
 
     nav: [
-      { text: "Home", link: "/" },
+      { text: "Blog", link: "/blog/" },
       { text: "Projekte", link: "/projekte/" },
       { text: "Hackathons", link: "/hackathons/" },
-      { text: "Blog", link: "/blog/" },
+
       { text: "Team", link: "/team/" },
     ],
-
-    sidebar: {
-      "/projekte/": [
-        {
-          text: "Projekte",
-          items: [
-            { text: "Übersicht", link: "/projekte/" },
-            { text: "Beispielprojekt", link: "/projekte/beispielprojekt" },
-          ],
-        },
-      ],
-      "/hackathons/": [
-        {
-          text: "Hackathons",
-          items: [
-            { text: "Übersicht", link: "/hackathons/" },
-            {
-              text: "Rahmenbedingungen",
-              link: "/hackathons/rahmenbedingungen",
-            },
-            {
-              text: "Beispiel-Hackathon",
-              link: "/hackathons/beispiel-hackathon",
-            },
-          ],
-        },
-      ],
-      "/blog/": [
-        {
-          text: "Blog",
-          items: [
-            { text: "Übersicht", link: "/blog/" },
-            {
-              text: "Beispielbeitrag",
-              link: "/blog/2026-01-01-beispielbeitrag",
-            },
-          ],
-        },
-      ],
-    },
-
     socialLinks: [
-      {
-        icon: "github",
-        link: "https://github.com/it-at-m/innolab.muenchen.de",
-      },
+      { icon: "github", link: "https://github.com/it-at-m/innolab.muenchen.de" },
     ],
 
     footer: {

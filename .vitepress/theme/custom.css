@@ -1,4 +1,125 @@
-/* Slightly enlarge the nav logo (VitePress default is 24px). */
 :root {
   --vp-nav-logo-height: 32px;
+}
+
+.hero-eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0 0 12px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--vp-c-brand-1);
+}
+.hero-eyebrow::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--vp-c-brand-1);
+  flex-shrink: 0;
+}
+
+.VPHero .text {
+  font-family: Georgia, "Times New Roman", ui-serif, serif;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+}
+
+.hero-word-accent {
+  color: var(--vp-c-brand-1);
+}
+
+html.dark[data-palette="official"] {
+  --vp-c-bg: #333333;
+  --vp-c-bg-alt: #2b2b2b;
+  --vp-c-bg-elv: #3d3d3d;
+  --vp-c-bg-soft: #3d3d3d;
+
+  --vp-c-border: #5c5c5c;
+  --vp-c-divider: #4a4a4a;
+  --vp-c-gutter: #262626;
+
+  --vp-c-text-1: #ffffff;
+  --vp-c-text-2: #d6d6d6;
+  --vp-c-text-3: #a3a3a3;
+
+  --vp-c-brand-1: #69fff5;
+  --vp-c-brand-2: #8dfff8;
+  --vp-c-brand-3: #1e6cff;
+  --vp-c-brand-soft: rgba(30, 108, 255, 0.16);
+
+  --vp-home-hero-name-color: #69fff5;
+
+  --vp-button-brand-bg: #1e6cff;
+  --vp-button-brand-hover-bg: #3a7dff;
+  --vp-button-brand-active-bg: #003ceb;
+  --vp-button-brand-text: #ffffff;
+  --vp-button-brand-hover-text: #ffffff;
+  --vp-button-brand-active-text: #ffffff;
+}
+
+html.dark[data-palette="amber"] {
+  --vp-c-bg: #17140f;
+  --vp-c-bg-alt: #1c1811;
+  --vp-c-bg-elv: #221d15;
+  --vp-c-bg-soft: #221d15;
+
+  --vp-c-border: #4a3e28;
+  --vp-c-divider: #382f20;
+  --vp-c-gutter: #100e0a;
+
+  --vp-c-text-1: #f2ecdf;
+  --vp-c-text-2: #b7ac95;
+  --vp-c-text-3: #8a7f68;
+
+  --vp-c-brand-1: #f0c04b;
+  --vp-c-brand-2: #f7d478;
+  --vp-c-brand-3: #d9a52a;
+  --vp-c-brand-soft: rgba(240, 192, 75, 0.16);
+
+  --vp-home-hero-name-color: #f0c04b;
+
+  --vp-button-brand-bg: #f0c04b;
+  --vp-button-brand-hover-bg: #f7d478;
+  --vp-button-brand-active-bg: #d9a52a;
+  --vp-button-brand-text: #1a1710;
+  --vp-button-brand-hover-text: #1a1710;
+  --vp-button-brand-active-text: #1a1710;
+}
+
+html.dark[data-palette="blue"] {
+  --vp-c-bg: #1a1712;
+  --vp-c-bg-alt: #1f1b15;
+  --vp-c-bg-elv: #23201a;
+  --vp-c-bg-soft: #23201a;
+
+  --vp-c-border: #473c2a;
+  --vp-c-divider: #372f22;
+  --vp-c-gutter: #12100c;
+
+  --vp-c-text-1: #f3ecdd;
+  --vp-c-text-2: #b7ab93;
+  --vp-c-text-3: #8b7f66;
+
+  --vp-c-brand-1: #6fa8d6;
+  --vp-c-brand-2: #8fbfe4;
+  --vp-c-brand-3: #4a86b8;
+  --vp-c-brand-soft: rgba(111, 168, 214, 0.16);
+
+  --vp-c-tip-1: #f0c04b;
+  --vp-c-tip-2: #f7d478;
+  --vp-c-tip-3: #d9a52a;
+  --vp-c-tip-soft: rgba(240, 192, 75, 0.16);
+
+  --vp-home-hero-name-color: #6fa8d6;
+
+  --vp-button-brand-bg: #6fa8d6;
+  --vp-button-brand-hover-bg: #8fbfe4;
+  --vp-button-brand-active-bg: #4a86b8;
+  --vp-button-brand-text: #12202c;
+  --vp-button-brand-hover-text: #12202c;
+  --vp-button-brand-active-text: #12202c;
 }

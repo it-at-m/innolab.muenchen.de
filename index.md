@@ -2,11 +2,15 @@
 layout: home
 
 hero:
-  name: "InnovationLab München"
-  text: "der Landeshauptstadt München"
-  tagline: Wir entwickeln neue digitale Lösungen für die Stadtverwaltung.
+  text: '<span class="hero-word-accent">Digitale Innovation</span> für die Stadtverwaltung München.'
+  tagline: Digitale Lösungen für München, entwickelt mit der Stadtverwaltung und ihren Bürger*innen.
   actions:
     - theme: brand
-      text: GitHub
-      link: https://github.com/orgs/it-at-m/teams/innolab/repositories
+      text: Projekte ansehen
+      link: /projekte/
+    - theme: alt
+      text: Team kennenlernen
+      link: /team/
 ---
+
+<FeatureCards />

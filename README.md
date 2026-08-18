@@ -29,7 +29,7 @@ Other commands:
 npm run build     # generate the production build
 npm run preview   # preview the production build locally
 npm run lint      # check formatting (Prettier)
-npm run format    # automatically fix formatting (Prettier)
+npm run fix    # automatically fix formatting (Prettier)
 ```
 
 Made with [VitePress](https://vitepress.dev/)

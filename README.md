@@ -1,4 +1,8 @@
-# innolab.muenchen.de
+<h1 align="center">innolab.muenchen.de</h1>
+
+<p align="center">
+  <img src="./public/images/logo.svg" alt="InnoLab München Logo" width="120"/>
+</p>
 
 <p align="center">
   <a href="https://opensource.muenchen.de/">
@@ -7,8 +11,6 @@
 </p>
 
 <!-- feel free to add more shields, style 'for-the-badge' -> see https://shields.io/badges -->
-
-Website of the InnoLab München
 
 ## Set up
 
@@ -37,7 +39,9 @@ Made with [VitePress](https://vitepress.dev/)
 ```text
 innolab.muenchen.de/
 ├── .vitepress/
-│   └── config.mts       → navigation, sidebar, meta
+│   ├── config.mts        → navigation, sidebar, meta
+│   └── theme/            → custom theme and styling
+├── public/                → static assets (images, favicon, …), served from site root
 ├── index.md              → home page
 ├── projekte/              → project overview + individual projects
 ├── hackathons/            → hackathon overview, framework conditions, individual entries

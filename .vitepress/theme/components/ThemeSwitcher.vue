@@ -1,6 +1,6 @@
 <script setup lang="ts">
 /**
- * Palette switcher for the three color themes explored for the
+ * Palette switcher for the color themes explored for the
  * münchen.digital. relaunch. Only affects dark mode for now — see
  * custom.css for the actual `[data-palette]` overrides. The choice
  * is persisted in localStorage and applied as a `data-palette`
@@ -8,7 +8,7 @@
  */
 import { onMounted, ref } from "vue";
 
-type Palette = "official" | "amber" | "blue";
+type Palette = "official" | "amber";
 
 const STORAGE_KEY = "innolab-palette";
 
@@ -19,7 +19,6 @@ const palettes: { id: Palette; swatch: string; title: string }[] = [
     title: "München.Digital. (Umbragrau/Blau/Türkis)",
   },
   { id: "amber", swatch: "#f0c04b", title: "Braun + Gelb-Akzent" },
-  { id: "blue", swatch: "#6fa8d6", title: "Braun + Blau + Gelb-Mini-Akzent" },
 ];
 
 const active = ref<Palette>("official");
@@ -49,7 +48,11 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="theme-switcher" role="group" aria-label="Farbthema">
+  <div
+    class="theme-switcher"
+    role="group"
+    aria-label="Farbthema"
+  >
     <button
       v-for="p in palettes"
       :key="p.id"
@@ -61,7 +64,10 @@ onMounted(() => {
       :aria-pressed="active === p.id"
       @click="apply(p.id)"
     >
-      <span class="swatch" :style="{ background: p.swatch }" />
+      <span
+        class="swatch"
+        :style="{ background: p.swatch }"
+      />
     </button>
   </div>
 </template>

@@ -29,7 +29,7 @@ next: false
     it@M - DKL-IL
     Agnes Pockels Bogen 33
     80992 München
-    E-Mail: itm.innolab@muenchen.de
+    E-Mail: innolab@muenchen.de
 
 Im Übrigen gilt das [Impressum der Landeshauptstadt München](https://stadt.muenchen.de/infos/impressum-datenschutz.html)
 

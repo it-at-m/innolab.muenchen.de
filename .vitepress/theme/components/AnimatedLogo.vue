@@ -9,10 +9,21 @@
  *
  * All path coordinates are copied unchanged from RIT_Basislogo_weiss.svg.
  */
-import { onMounted, onUnmounted, ref } from "vue";
+import { computed, onMounted, onUnmounted, ref } from "vue";
+
+const LOGO_MODE_COLORS = {
+  white: "#ffffff",
+  black: "#000000",
+  blue: "#003ceb",
+  umbra: "#333333",
+} as const;
+
+type LogoMode = keyof typeof LOGO_MODE_COLORS;
 
 const props = withDefaults(
   defineProps<{
+    /** Preset color mode. Omit to follow the active light/dark theme. */
+    mode?: LogoMode;
     /** Fill color of the hexagon. */
     hexColor?: string;
     /** Fill color of the "München.Digital." wordmark. */
@@ -21,11 +32,17 @@ const props = withDefaults(
     duration?: number;
   }>(),
   {
-    hexColor: "#ffffff",
-    textColor: "#ffffff",
     duration: 1.7,
   },
 );
+
+const modeColor = computed(() =>
+  props.mode
+    ? LOGO_MODE_COLORS[props.mode]
+    : "var(--innolab-logo-color, #003ceb)",
+);
+const resolvedHexColor = computed(() => props.hexColor ?? modeColor.value);
+const resolvedTextColor = computed(() => props.textColor ?? modeColor.value);
 
 // All 12 corner points of the real hexagon path, in the order they
 // appear in the source SVG. Naming them P0-P11 makes it easy to talk
@@ -131,12 +148,12 @@ onUnmounted(() => cancelAnimationFrame(rafId));
 <template>
   <div class="animated-logo">
     <svg viewBox="0 0 725 545">
-      <polygon :fill="hexColor" :points="polygonPoints" />
+      <polygon :fill="resolvedHexColor" :points="polygonPoints" />
 
       <g
         class="wordmark"
         :class="{ visible: wordVisible }"
-        :style="{ fill: textColor }"
+        :style="{ fill: resolvedTextColor }"
       >
         <!-- "München." — paths copied unchanged from RIT_Basislogo_weiss.svg -->
         <g class="word-group" style="transition-delay: 0.05s">

@@ -1,5 +1,11 @@
 :root {
   --vp-nav-logo-height: 32px;
+  --innolab-highlight: var(--vp-c-brand-1);
+  --innolab-logo-color: #003ceb;
+}
+
+html.dark {
+  --innolab-logo-color: #ffffff;
 }
 
 .hero-eyebrow {
@@ -18,7 +24,7 @@
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  background: var(--vp-c-brand-1);
+  background: var(--innolab-highlight);
   flex-shrink: 0;
 }
 
@@ -29,32 +35,63 @@
 }
 
 .hero-word-accent {
-  color: var(--vp-c-brand-1);
+  color: var(--vp-home-hero-name-color);
+}
+
+html:not(.dark)[data-palette="official"] {
+  --vp-c-bg: #f5f8ff;
+  --vp-c-bg-alt: #edf3ff;
+  --vp-c-bg-elv: #ffffff;
+  --vp-c-bg-soft: #e8f0ff;
+
+  --vp-c-border: rgba(0, 60, 235, 0.24);
+  --vp-c-divider: rgba(0, 60, 235, 0.14);
+  --vp-c-gutter: #e1e9fa;
+
+  --vp-c-text-1: #333333;
+  --vp-c-text-2: rgba(51, 51, 51, 0.76);
+  --vp-c-text-3: rgba(51, 51, 51, 0.58);
+
+  --vp-c-brand-1: #003ceb;
+  --vp-c-brand-2: #1e6cff;
+  --vp-c-brand-3: #003ceb;
+  --vp-c-brand-soft: rgba(30, 108, 255, 0.12);
+
+  --vp-home-hero-name-color: #003ceb;
+  --innolab-highlight: #1e6cff;
+
+  --vp-button-brand-bg: #1e6cff;
+  --vp-button-brand-hover-bg: #003ceb;
+  --vp-button-brand-active-bg: #003ceb;
+  --vp-button-brand-text: #ffffff;
+  --vp-button-brand-hover-text: #ffffff;
+  --vp-button-brand-active-text: #ffffff;
 }
 
 html.dark[data-palette="official"] {
-  --vp-c-bg: #333333;
-  --vp-c-bg-alt: #2b2b2b;
-  --vp-c-bg-elv: #3d3d3d;
-  --vp-c-bg-soft: #3d3d3d;
+  --vp-c-bg: #071426;
+  --vp-c-bg-alt: #050f20;
+  --vp-c-bg-elv: #0d203b;
+  --vp-c-bg-soft: #0d203b;
 
-  --vp-c-border: #5c5c5c;
-  --vp-c-divider: #4a4a4a;
-  --vp-c-gutter: #262626;
+  --vp-c-border: rgba(30, 108, 255, 0.36);
+  --vp-c-divider: rgba(30, 108, 255, 0.22);
+  --vp-c-gutter: #040b17;
 
   --vp-c-text-1: #ffffff;
-  --vp-c-text-2: #d6d6d6;
-  --vp-c-text-3: #a3a3a3;
+  --vp-c-text-2: rgba(255, 255, 255, 0.74);
+  --vp-c-text-3: rgba(255, 255, 255, 0.54);
 
   --vp-c-brand-1: #69fff5;
-  --vp-c-brand-2: #8dfff8;
-  --vp-c-brand-3: #1e6cff;
-  --vp-c-brand-soft: rgba(30, 108, 255, 0.16);
+  --vp-c-brand-2: #1e6cff;
+  --vp-c-brand-3: #003ceb;
+  --vp-c-brand-soft: rgba(105, 255, 245, 0.14);
 
   --vp-home-hero-name-color: #69fff5;
+  --innolab-highlight: #69fff5;
 
   --vp-button-brand-bg: #1e6cff;
-  --vp-button-brand-hover-bg: #3a7dff;
+  --vp-button-brand-hover-bg: #003ceb;
   --vp-button-brand-active-bg: #003ceb;
   --vp-button-brand-text: #ffffff;
   --vp-button-brand-hover-text: #ffffff;

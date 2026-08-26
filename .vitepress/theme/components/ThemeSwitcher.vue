@@ -1,10 +1,9 @@
 <script setup lang="ts">
 /**
  * Palette switcher for the color themes explored for the
- * münchen.digital. relaunch. Only affects dark mode for now — see
- * custom.css for the actual `[data-palette]` overrides. The choice
- * is persisted in localStorage and applied as a `data-palette`
- * attribute on <html>, read by custom.css.
+ * münchen.digital. relaunch. See custom.css for the actual
+ * `[data-palette]` overrides. The choice is persisted in localStorage
+ * and applied as a `data-palette` attribute on <html>, read by custom.css.
  */
 import { onMounted, ref } from "vue";
 
@@ -16,7 +15,7 @@ const palettes: { id: Palette; swatch: string; title: string }[] = [
   {
     id: "official",
     swatch: "#1e6cff",
-    title: "München.Digital. (Umbragrau/Blau/Türkis)",
+    title: "München.Digital. (Blau/Türkis)",
   },
   { id: "amber", swatch: "#f0c04b", title: "Braun + Gelb-Akzent" },
 ];

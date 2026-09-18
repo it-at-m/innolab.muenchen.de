@@ -33,13 +33,13 @@ const props = withDefaults(
   }>(),
   {
     duration: 1.7,
-  },
+  }
 );
 
 const modeColor = computed(() =>
   props.mode
     ? LOGO_MODE_COLORS[props.mode]
-    : "var(--innolab-logo-color, #003ceb)",
+    : "var(--innolab-logo-color, #003ceb)"
 );
 const resolvedHexColor = computed(() => props.hexColor ?? modeColor.value);
 const resolvedTextColor = computed(() => props.textColor ?? modeColor.value);
@@ -70,7 +70,7 @@ const strandB = [P[2], P[3], P[4], P[5], P[6], P[7]];
 function lerp(
   a: [number, number],
   b: [number, number],
-  f: number,
+  f: number
 ): [number, number] {
   return [a[0] + (b[0] - a[0]) * f, a[1] + (b[1] - a[1]) * f];
 }
@@ -80,13 +80,13 @@ function lerp(
 // waypoints at the same time, even though their segments differ in length.
 function pointOnStrand(
   strand: [number, number][],
-  t: number,
+  t: number
 ): [number, number] {
   const segCount = strand.length - 1;
   const clampedT = Math.min(Math.max(t, 0), 1);
   const segIndex = Math.min(
     Math.max(Math.floor(clampedT * segCount), 0),
-    segCount - 1,
+    segCount - 1
   );
   const segFrac = clampedT * segCount - segIndex;
   return lerp(strand[segIndex], strand[segIndex + 1], segFrac);
@@ -97,7 +97,7 @@ function pointsUpTo(strand: [number, number][], t: number): [number, number][] {
   const clampedT = Math.min(Math.max(t, 0), 1);
   const segIndex = Math.min(
     Math.max(Math.floor(clampedT * segCount), 0),
-    segCount - 1,
+    segCount - 1
   );
   return [...strand.slice(0, segIndex + 1), pointOnStrand(strand, clampedT)];
 }
@@ -148,7 +148,10 @@ onUnmounted(() => cancelAnimationFrame(rafId));
 <template>
   <div class="animated-logo">
     <svg viewBox="0 0 725 545">
-      <polygon :fill="resolvedHexColor" :points="polygonPoints" />
+      <polygon
+        :fill="resolvedHexColor"
+        :points="polygonPoints"
+      />
 
       <g
         class="wordmark"
@@ -156,7 +159,10 @@ onUnmounted(() => cancelAnimationFrame(rafId));
         :style="{ fill: resolvedTextColor }"
       >
         <!-- "München." — paths copied unchanged from RIT_Basislogo_weiss.svg -->
-        <g class="word-group" style="transition-delay: 0.05s">
+        <g
+          class="word-group"
+          style="transition-delay: 0.05s"
+        >
           <path
             d="m290.18,338.09l28.73,66.68,29.36-66.68h10.49v76.53h-6.89v-70.7h-.21l-29.26,70.7h-6.89l-29.26-70.39h-.21v70.39h-6.89v-76.53h11.02Z"
           />
@@ -182,7 +188,10 @@ onUnmounted(() => cancelAnimationFrame(rafId));
         </g>
 
         <!-- "Digital." — paths copied unchanged from RIT_Basislogo_weiss.svg -->
-        <g class="word-group" style="transition-delay: 0.15s">
+        <g
+          class="word-group"
+          style="transition-delay: 0.15s"
+        >
           <path
             d="m306.58,444.3c9.65,0,18.97,2.33,25.76,7.53,7.53,5.83,12.19,16.43,12.19,29.47,0,17.81-7.31,31.59-21.73,37-4.45,1.7-9.86,2.33-15.37,2.33h-27.67v-76.43l26.82.11Zm-10.18,63.71c2.23,0,4.45.21,6.68.21,3.71,0,7-.21,9.12-.74,12.61-2.86,15.37-16.11,15.37-26.29s-3.29-21.84-16.64-24.17c-2.23-.42-5.72-.53-8.9-.53-1.91,0-3.82,0-5.62.11v51.41Z"
           />
@@ -230,11 +239,11 @@ onUnmounted(() => cancelAnimationFrame(rafId));
   z-index: -1;
   background: radial-gradient(
     circle,
-    color-mix(in srgb, var(--vp-c-brand-1) 55%, transparent) 0%,
-    color-mix(in srgb, var(--vp-c-brand-1) 20%, transparent) 45%,
+    color-mix(in srgb, var(--vp-c-brand-1) 28%, transparent) 0%,
+    color-mix(in srgb, var(--vp-c-brand-1) 10%, transparent) 45%,
     transparent 75%
   );
-  filter: blur(64px);
+  filter: blur(48px);
   pointer-events: none;
 }
 

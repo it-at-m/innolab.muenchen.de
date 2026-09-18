@@ -1,23 +1,19 @@
+---
+title: Hackathons
+description: Hackathons und offene Formate des InnoLab München.
+---
+
 # Hackathons
 
-Hier entsteht die Übersicht aller Hackathons des InnoLab München.
+Formate, in denen wir gemeinsam mit Verwaltung, Community und Partner*innen an
+konkreten Fragestellungen arbeiten.
 
-<!-- TODO: Liste/Grid der einzelnen Hackathons, sobald mehrere vorhanden sind -->
+## Übersicht
 
-Jede Hackathon-Seite nutzt folgendes Frontmatter:
+- [Beispiel-Hackathon](./beispiel-hackathon.md) – Vorlage für neue Hackathon-Seiten.
+- [Rahmenbedingungen](./rahmenbedingungen.md) – Ablauf, Rollen und Organisation.
 
-```yaml
----
-title: Name des Hackathons
-description: Kurzbeschreibung
-period: MM/JJJJ
----
-```
+## Neuen Hackathon anlegen
 
-## Rahmenbedingungen
-
-Siehe [Rahmenbedingungen](./rahmenbedingungen.md).
-
-## Beispiel
-
-Siehe [Beispiel-Hackathon](./beispiel-hackathon.md) für das Format einer einzelnen Hackathon-Seite.
+Lege eine neue `.md`-Datei im Ordner `hackathons` an, verlinke sie hier und
+ergänze sie in der Sidebar-Konfiguration in `.vitepress/config.mts`.

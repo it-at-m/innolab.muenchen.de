@@ -8,16 +8,15 @@ import { VPTeamMembers } from "vitepress/theme";
 
 const placeholder = "/images/avatar-placeholder.svg";
 
-// Beispielprofile: Namen, Rollen und weitere Einträge hier ersetzen oder ergänzen.
 const members = [
-  { avatar: placeholder, name: "Vorname Nachname", title: "Leitung und Strategie" },
-  { avatar: placeholder, name: "Vorname Nachname", title: "Projektleitung und Innovationsmanagement" },
-  { avatar: placeholder, name: "Vorname Nachname", title: "Technologie und Prototyping" },
-  { avatar: placeholder, name: "Vorname Nachname", title: "Technologie und Prototyping" },
-  { avatar: placeholder, name: "Vorname Nachname", title: "UX und Interface Design" },
-  { avatar: placeholder, name: "Vorname Nachname", title: "UX und Interface Design" },
-  { avatar: placeholder, name: "Vorname Nachname", title: "Kommunikation und Community" },
-  { avatar: placeholder, name: "Vorname Nachname", title: "Kommunikation und Community" },
+    { avatar: placeholder, name: "Vorname Nachname", title: "Kommisarische Leitung" },
+  { avatar: placeholder, name: "Vorname Nachname", title: "UI/UX Designer", desc: "Stellvertretende Leitung" },
+  { avatar: placeholder, name: "Vorname Nachname", title: "UI/UX Designerin" },
+  { avatar: placeholder, name: "Vorname Nachname", title: "Projektmanagerin Innovationsprojekte" },
+  { avatar: placeholder, name: "Vorname Nachname", title: "Kommunikationsmanagerin" },
+  { avatar: placeholder, name: "Vorname Nachname", title: "Kommunikationsmanager" },
+  { avatar: placeholder, name: "Vorname Nachname", title: "Technical Prototyper" },
+  { avatar: placeholder, name: "Vorname Nachname", title: "Technical Prototyper" },
 ];
 </script>
 

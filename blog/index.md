@@ -1,9 +1,18 @@
+---
+title: Blog
+description: Einblicke, Entscheidungen und Erfahrungen aus dem InnoLab München.
+---
+
 # Blog
 
-Hier entsteht die chronologische Übersicht aller Blogbeiträge.
+Einblicke, Entscheidungen und Erfahrungen aus der Arbeit des InnoLab.
 
-<!-- TODO: Liste der Beiträge, sobald mehrere vorhanden sind -->
+## Beiträge
 
-## Beispielbeitrag
+- [Beispielbeitrag](./2026-01-01-beispielbeitrag.md) – Vorlage für neue Beiträge.
 
-Siehe [2026-01-01-beispielbeitrag](./2026-01-01-beispielbeitrag.md) für das Format eines einzelnen Beitrags.
+## Neuen Beitrag anlegen
+
+Lege eine neue `.md`-Datei im Ordner `blog` nach dem Schema
+`JJJJ-MM-TT-titel.md` an, verlinke sie hier und ergänze sie in der
+Sidebar-Konfiguration in `.vitepress/config.mts`.

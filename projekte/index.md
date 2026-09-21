@@ -1,9 +1,20 @@
+---
+title: Projekte
+description: Projekte und Prototypen des InnoLab München.
+---
+
 # Projekte
 
-Hier entsteht die Übersicht aller Projekte des InnoLab München.
+Vorhaben, Prototypen und Erkenntnisse aus der gemeinsamen Arbeit mit der
+Münchner Stadtverwaltung.
 
-<!-- TODO: Liste/Grid der einzelnen Projekte, sobald mehrere vorhanden sind -->
+## Übersicht
 
-## Beispielprojekt
+- [Beispielprojekt](./beispielprojekt.md) – Vorlage für neue Projektseiten.
 
-Siehe [Beispielprojekt](./beispielprojekt.md) für das Format einer einzelnen Projektseite.
+## Neues Projekt anlegen
+
+Lege eine neue `.md`-Datei im Ordner `projekte` an, verlinke sie hier in der
+Übersicht und ergänze sie in der Sidebar-Konfiguration in
+`.vitepress/config.mts`. Als Ausgangspunkt dient das
+[Beispielprojekt](./beispielprojekt.md).

@@ -1,4 +1,162 @@
-/* Slightly enlarge the nav logo (VitePress default is 24px). */
 :root {
   --vp-nav-logo-height: 32px;
+  --innolab-logo-color: #003ceb;
+}
+
+html.dark {
+  --innolab-logo-color: #ffffff;
+}
+
+/* Animated logo replaces the default hero image. The default theme sizes
+   and offsets that slot for a square 320px graphic, so the box fills its
+   area instead and centers the logo on both axes. */
+.VPHome .VPHero .image {
+  margin: 0;
+}
+
+.VPHome .VPHero .image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  transform: none;
+}
+
+.VPHome .VPHero .image-bg {
+  display: none;
+}
+
+.home-logo {
+  width: min(100%, 20rem);
+}
+
+html:not(.dark) {
+  --vp-c-bg: #f5f8ff;
+  --vp-c-bg-alt: #edf3ff;
+  --vp-c-bg-elv: #ffffff;
+  --vp-c-bg-soft: #e8f0ff;
+
+  --vp-c-border: rgba(0, 60, 235, 0.24);
+  --vp-c-divider: rgba(0, 60, 235, 0.14);
+  --vp-c-gutter: #e1e9fa;
+
+  --vp-c-text-1: #333333;
+  --vp-c-text-2: rgba(51, 51, 51, 0.76);
+  --vp-c-text-3: rgba(51, 51, 51, 0.58);
+
+  --vp-c-brand-1: #003ceb;
+  --vp-c-brand-2: #1e6cff;
+  --vp-c-brand-3: #003ceb;
+  --vp-c-brand-soft: rgba(30, 108, 255, 0.12);
+
+  --vp-home-hero-name-color: #003ceb;
+
+  --vp-button-brand-bg: #1e6cff;
+  --vp-button-brand-hover-bg: #003ceb;
+  --vp-button-brand-active-bg: #003ceb;
+  --vp-button-brand-text: #ffffff;
+  --vp-button-brand-hover-text: #ffffff;
+  --vp-button-brand-active-text: #ffffff;
+}
+
+html:not(.dark)[data-palette="amber"] {
+  --vp-c-bg: #f7f3e8;
+  --vp-c-bg-alt: #efe8d8;
+  --vp-c-bg-elv: #fffaf0;
+  --vp-c-bg-soft: #f1e8d3;
+
+  --vp-c-border: rgba(103, 75, 22, 0.28);
+  --vp-c-divider: rgba(103, 75, 22, 0.16);
+  --vp-c-gutter: #e7ddc7;
+
+  /* Neutral scale, warmed up: VitePress derives it from a blue-tinted gray
+     that reads as lavender on this background. Feeds alt buttons, the
+     appearance toggle, code blocks, info blocks and badges. */
+  --vp-c-default-1: #dad0b9;
+  --vp-c-default-2: #e4dac6;
+  --vp-c-default-3: #ece4d3;
+  --vp-c-default-soft: rgba(103, 75, 22, 0.1);
+
+  --vp-c-text-1: #2b2418;
+  --vp-c-text-2: rgba(43, 36, 24, 0.76);
+  --vp-c-text-3: rgba(43, 36, 24, 0.58);
+
+  --vp-c-brand-1: #674b16;
+  --vp-c-brand-2: #7a5919;
+  --vp-c-brand-3: #5c4314;
+  --vp-c-brand-soft: rgba(240, 192, 75, 0.2);
+
+  --vp-home-hero-name-color: #5c4314;
+  --innolab-logo-color: #5c4314;
+
+  --vp-button-brand-bg: #f0c04b;
+  --vp-button-brand-hover-bg: #d9a52a;
+  --vp-button-brand-active-bg: #d9a52a;
+  --vp-button-brand-text: #1a1710;
+  --vp-button-brand-hover-text: #1a1710;
+  --vp-button-brand-active-text: #1a1710;
+}
+
+html.dark {
+  --vp-c-bg: #071426;
+  --vp-c-bg-alt: #050f20;
+  --vp-c-bg-elv: #0d203b;
+  --vp-c-bg-soft: #0d203b;
+
+  --vp-c-border: rgba(30, 108, 255, 0.36);
+  --vp-c-divider: rgba(30, 108, 255, 0.22);
+  --vp-c-gutter: #040b17;
+
+  --vp-c-text-1: #ffffff;
+  --vp-c-text-2: rgba(255, 255, 255, 0.74);
+  --vp-c-text-3: rgba(255, 255, 255, 0.54);
+
+  --vp-c-brand-1: #69fff5;
+  --vp-c-brand-2: #1e6cff;
+  --vp-c-brand-3: #003ceb;
+  --vp-c-brand-soft: rgba(105, 255, 245, 0.14);
+
+  --vp-home-hero-name-color: #69fff5;
+
+  --vp-button-brand-bg: #1e6cff;
+  --vp-button-brand-hover-bg: #003ceb;
+  --vp-button-brand-active-bg: #003ceb;
+  --vp-button-brand-text: #ffffff;
+  --vp-button-brand-hover-text: #ffffff;
+  --vp-button-brand-active-text: #ffffff;
+}
+
+html.dark[data-palette="amber"] {
+  --vp-c-bg: #17140f;
+  --vp-c-bg-alt: #1c1811;
+  --vp-c-bg-elv: #221d15;
+  --vp-c-bg-soft: #221d15;
+
+  --vp-c-border: #4a3e28;
+  --vp-c-divider: #382f20;
+  --vp-c-gutter: #100e0a;
+
+  --vp-c-default-1: #4a3e28;
+  --vp-c-default-2: #3a3122;
+  --vp-c-default-3: #2d2719;
+  --vp-c-default-soft: rgba(184, 160, 110, 0.16);
+
+  --vp-c-text-1: #f2ecdf;
+  --vp-c-text-2: #b7ac95;
+  --vp-c-text-3: #8a7f68;
+
+  --vp-c-brand-1: #f0c04b;
+  --vp-c-brand-2: #f7d478;
+  --vp-c-brand-3: #d9a52a;
+  --vp-c-brand-soft: rgba(240, 192, 75, 0.16);
+
+  --vp-home-hero-name-color: #f0c04b;
+
+  --vp-button-brand-bg: #f0c04b;
+  --vp-button-brand-hover-bg: #f7d478;
+  --vp-button-brand-active-bg: #d9a52a;
+  --vp-button-brand-text: #1a1710;
+  --vp-button-brand-hover-text: #1a1710;
+  --vp-button-brand-active-text: #1a1710;
 }

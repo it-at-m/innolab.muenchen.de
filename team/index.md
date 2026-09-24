@@ -16,7 +16,8 @@ const members = [
   { avatar: placeholder, name: "Vorname Nachname", title: "Kommunikationsmanagerin" },
   { avatar: placeholder, name: "Vorname Nachname", title: "Kommunikationsmanager" },
   { avatar: placeholder, name: "Vorname Nachname", title: "Technical Prototyper" },
-  { avatar: placeholder, name: "Vorname Nachname", title: "Technical Prototyper" },
+  { avatar: placeholder, name: "", title: "Technical Prototyper" },
+  { avatar: placeholder, name: "Vorname Nachname", title: "Nachwuchskraft" },
 ];
 </script>
 

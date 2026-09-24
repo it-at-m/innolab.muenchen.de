@@ -2,7 +2,6 @@
 import DefaultTheme from "vitepress/theme";
 
 import AnimatedLogo from "./components/AnimatedLogo.vue";
-import ThemeSwitcher from "./components/ThemeSwitcher.vue";
 
 const { Layout } = DefaultTheme;
 </script>
@@ -15,5 +14,4 @@ const { Layout } = DefaultTheme;
       </div>
     </template>
   </Layout>
-  <ThemeSwitcher />
 </template>

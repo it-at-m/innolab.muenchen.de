@@ -1,6 +1,8 @@
 ---
 title: Team
 description: Das Team hinter dem InnoLab München.
+prev: false
+next: false
 ---
 
 <script setup>

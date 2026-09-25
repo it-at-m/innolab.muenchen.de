@@ -121,6 +121,13 @@ function renderFrame(t: number) {
 
 function play() {
   cancelAnimationFrame(rafId);
+
+  if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    renderFrame(1);
+    wordVisible.value = true;
+    return;
+  }
+
   wordVisible.value = false;
 
   const durationMs = props.duration * 1000;
@@ -147,7 +154,10 @@ onUnmounted(() => cancelAnimationFrame(rafId));
 
 <template>
   <div class="animated-logo">
-    <svg viewBox="0 0 725 545">
+    <svg
+      viewBox="0 0 725 545"
+      aria-hidden="true"
+    >
       <polygon
         :fill="resolvedHexColor"
         :points="polygonPoints"
@@ -265,5 +275,11 @@ onUnmounted(() => cancelAnimationFrame(rafId));
 .wordmark.visible .word-group {
   opacity: 1;
   transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .word-group {
+    transition: none;
+  }
 }
 </style>

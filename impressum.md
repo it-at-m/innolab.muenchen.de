@@ -6,30 +6,30 @@ next: false
 
 # Impressum
 
-    Landeshauptstadt München
-    Postanschrift:
-    Marienplatz 8, 80331 München
-    E-Mail: rathaus@muenchen.de
-    Telefon: 115
-    Fax: (089) 233-26458
+Landeshauptstadt München  
+Postanschrift:  
+Marienplatz 8, 80331 München  
+E-Mail: rathaus@muenchen.de  
+Telefon: 115  
+Fax: (089) 233-26458
 
-    Herr Oberbürgermeister Dominik Krause
-    E-Mail: buero.ob@muenchen.de
+Herr Oberbürgermeister Dominik Krause  
+E-Mail: buero.ob@muenchen.de
 
-    Körperschaft des öffentlichen Rechts
+Körperschaft des öffentlichen Rechts
 
-    Umsatzsteuer-Identifikationsnummer: DE 129 524 000
+Umsatzsteuer-Identifikationsnummer: DE 129 524 000
 
-    Zuständige Aufsichtsbehörde:
-    Regierung von Oberbayern
-    Maximilianstraße 39, 80538 München
+Zuständige Aufsichtsbehörde:  
+Regierung von Oberbayern  
+Maximilianstraße 39, 80538 München
 
 ## Inhaltliche Verantwortung
 
-    it@M - DKL-IL
-    Agnes Pockels Bogen 33
-    80992 München
-    E-Mail: innolab@muenchen.de
+it@M - DKL-IL  
+Agnes Pockels Bogen 33  
+80992 München  
+E-Mail: innolab@muenchen.de
 
 Im Übrigen gilt das [Impressum der Landeshauptstadt München](https://stadt.muenchen.de/infos/impressum-datenschutz.html)
 
@@ -39,18 +39,18 @@ Im Folgenden möchten wir Sie aufklären, wie Ihre Daten von uns verarbeitet wer
 
 Verantwortlich im Sinne der DSGVO ist:
 
-    Oberbürgermeister Dominik Krause
-    80313 München
-    E-Mail: <rathaus@muenchen.de>
-    Telefon: (089) 233-00
+Oberbürgermeister Dominik Krause  
+80313 München  
+E-Mail: <rathaus@muenchen.de>  
+Telefon: (089) 233-00
 
 Unsere Datenschutzbeauftragten erreichen sie unter:
 
-    Landeshauptstadt München
-    Datenschutzbeauftragter
-    Postadresse: Marienplatz 8, 80331 München
-    E-Mail: datenschutz@muenchen.de
-    De-Mail: datenschutz@muenchen.de-mail.de
+Landeshauptstadt München  
+Datenschutzbeauftragter  
+Postadresse: Marienplatz 8, 80331 München  
+E-Mail: datenschutz@muenchen.de  
+De-Mail: datenschutz@muenchen.de-mail.de
 
 Sollten Sie per E-Mail mit uns Kontakt aufnehmen, werden die mitgeteilten Daten von uns gespeichert, um Ihr Anliegen zu bearbeiten.
 
@@ -82,10 +82,10 @@ Es erfolgt kein Tracking und wir haben auf diese Daten keinen direkten Zugriff.
 
 Wir setzen für die Zurverfügungstellung unserer Website folgenden Hoster ein:
 
-    GitHub Inc.
-    88 Colin P Kelly Jr St
-    San Francisco, CA 94107
-    United States
+GitHub Inc.  
+88 Colin P Kelly Jr St  
+San Francisco, CA 94107  
+United States
 
 Dieser ist Empfänger Ihrer personenbezogenen Daten. Dies entspricht unserem berechtigten Interesse im Sinne des Art. 6 Abs. 1 lit. e) DSGVO i.V.m. Art. 4 BayDSG, selbst keinen Server in unseren Räumlichkeiten vorhalten zu müssen. Serverstandort ist USA.
 

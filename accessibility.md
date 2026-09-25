@@ -43,6 +43,6 @@ IT-Dienstleistungszentrum des Freistaats Bayern
 Durchsetzungs- und Überwachungsstelle  
 für barrierefreie Informationstechnik  
 St.-Martin-Straße 47  
-81541 München  
+81541 München
 
 E-Mail: [bitv@ldbv.bayern.de](mailto:bitv@ldbv.bayern.de)

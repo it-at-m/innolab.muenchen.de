@@ -2,7 +2,7 @@
 layout: home
 
 hero:
-  text: Digitale Innovation in der Münchner Stadtverwaltung. 
+  text: Digitale Innovation in der Münchner Stadtverwaltung.
   tagline: Das InnovationLab im IT-Referat entwickelt gemeinsam neue Lösungen und erprobt neue Technologien für Bürger*innen und Verwaltung.
   actions:
     - theme: brand
@@ -20,7 +20,7 @@ features:
   - title: Hackathons
     details: Formate für neue Perspektiven und Lösungen.
     link: /hackathons/
-    linkText: Hackathons anschauen 
+    linkText: Hackathons anschauen
   - title: Blog
     details: Einblicke, Berichte und Erfahrungen aus Projekten.
     link: /blog/

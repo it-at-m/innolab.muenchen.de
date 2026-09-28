@@ -60,6 +60,10 @@ export default defineConfig({
           items: [
             { text: "Übersicht", link: "/blog/" },
             {
+              text: "Digitalisierung von Medienbestellungen",
+              link: "/blog/2026-09-30-limos",
+            },
+            {
               text: "Beispielbeitrag",
               link: "/blog/2026-01-01-beispielbeitrag",
             },

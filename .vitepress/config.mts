@@ -9,6 +9,13 @@ export default defineConfig({
   // Repo-root files that are not part of the website
   srcExclude: ["README.md", "CODE_OF_CONDUCT.md", "LICENSE", "LICENSE.md"],
 
+  markdown: {
+    theme: {
+      light: "github-light-high-contrast",
+      dark: "github-dark-high-contrast",
+    },
+  },
+
   head: [
     [
       "link",
@@ -88,6 +95,12 @@ export default defineConfig({
       {
         icon: "github",
         link: "https://github.com/it-at-m/innolab.muenchen.de",
+        ariaLabel: "GitHub-Repository",
+      },
+      {
+        icon: "mastodon",
+        link: "https://social.muenchen.de/@innoLab",
+        ariaLabel: "Mastodon-Profil",
       },
     ],
 
@@ -99,10 +112,18 @@ export default defineConfig({
     sidebarMenuLabel: "Menü",
     returnToTopLabel: "Zurück nach oben",
     langMenuLabel: "Sprache wechseln",
+    skipToContentLabel: "Zum Inhalt springen",
+
+    notFound: {
+      title: "Seite nicht gefunden",
+      quote: "Die aufgerufene Seite existiert nicht oder wurde verschoben.",
+      linkLabel: "Zur Startseite",
+      linkText: "Zur Startseite",
+    },
 
     footer: {
       message:
-        'Made with ❤ by it@M | <a href="/impressum">Impressum & Datenschutz</a>',
+        'Mit ❤ gemacht von it@M | <a href="/impressum">Impressum & Datenschutz</a> | <a href="/accessibility">Barrierefreiheit</a>',
     },
   },
 });

@@ -2,31 +2,31 @@
 layout: home
 
 hero:
-  text: Wir testen, was München digital besser macht.
-  tagline: Das InnoLab von it@M entwickelt gemeinsam mit der Stadtverwaltung Prototypen, erprobt neue Arbeitsweisen und teilt, was daraus gelernt wird.
+  text: Digitale Innovation in der Münchner Stadtverwaltung. 
+  tagline: Das InnovationLab im IT-Referat entwickelt gemeinsam neue Lösungen und erprobt neue Technologien für Bürger*innen und Verwaltung.
   actions:
     - theme: brand
-      text: Projekte ansehen
+      text: Unsere Projekte
       link: /projekte/
     - theme: alt
-      text: Team kennenlernen
+      text: Unser Team
       link: /team/
 
 features:
   - title: Projekte
-    details: Was wir entwickeln, testen und dokumentieren.
+    details: Was wir tun, erproben und lernen.
     link: /projekte/
     linkText: Projekte ansehen
   - title: Hackathons
-    details: Formate für neue Perspektiven und gemeinsame Lösungen.
+    details: Formate für neue Perspektiven und Lösungen.
     link: /hackathons/
-    linkText: Hackathons ansehen
+    linkText: Hackathons anschauen 
   - title: Blog
-    details: Einblicke, Entscheidungen und Erfahrungen aus dem Lab.
+    details: Einblicke, Berichte und Erfahrungen aus Projekten.
     link: /blog/
     linkText: Zum Blog
   - title: Team
-    details: Wer im InnoLab arbeitet und welche Disziplinen zusammenkommen.
+    details: Wer im InnovationLab arbeitet und welche Expertise zusammenkommt.
     link: /team/
     linkText: Team kennenlernen
 ---

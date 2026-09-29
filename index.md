@@ -21,10 +21,6 @@ features:
     details: Formate für neue Perspektiven und Lösungen.
     link: /hackathons/
     linkText: Hackathons anschauen
-  - title: Blog
-    details: Einblicke, Berichte und Erfahrungen aus Projekten.
-    link: /blog/
-    linkText: Zum Blog
   - title: Team
     details: Wer im InnovationLab arbeitet und welche Expertise zusammenkommt.
     link: /team/

@@ -115,3 +115,10 @@ html.dark {
   --vp-button-brand-hover-text: #ffffff;
   --vp-button-brand-active-text: #ffffff;
 }
+
+/* The default theme top-aligns badges in h1, which places project status
+   badges visibly above the heading's text center. */
+.vp-doc h1 > .VPBadge {
+  margin-top: 0;
+  vertical-align: middle;
+}

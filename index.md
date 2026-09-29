@@ -17,10 +17,10 @@ features:
     details: Was wir tun, erproben und lernen.
     link: /projekte/
     linkText: Projekte ansehen
-  - title: Blog
-    details: Einblicke, Berichte und Erfahrungen aus Projekten.
-    link: /blog/
-    linkText: Zum Blog
+  - title: Hackathons
+    details: Formate für neue Perspektiven und Lösungen.
+    link: /hackathons/
+    linkText: Hackathons anschauen
   - title: Team
     details: Wer im InnovationLab arbeitet und welche Expertise zusammenkommt.
     link: /team/

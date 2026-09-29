@@ -45,7 +45,7 @@ innolab.muenchen.de/
 ├── index.md              → home page
 ├── projekte/              → project overview + individual projects
 ├── hackathons/            → hackathon framework conditions
-├── blog/                  → blog posts
+├── blog/                  → blog posts (currently disabled via `srcExclude`)
 └── team/                  → team page
 ```
 

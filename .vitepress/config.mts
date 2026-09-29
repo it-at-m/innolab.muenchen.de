@@ -7,11 +7,11 @@ export default defineConfig({
   lang: "de-DE",
 
   srcExclude: [
-    // Repo-root files that are not part of the website
     "README.md",
     "CODE_OF_CONDUCT.md",
     "LICENSE",
     "LICENSE.md",
+    "blog/**",
     // Hackathons are temporarily disabled
     "hackathons/**",
   ],
@@ -52,38 +52,9 @@ export default defineConfig({
 
     nav: [
       { text: "Startseite", link: "/" },
-      { text: "Blog", link: "/blog/" },
       { text: "Projekte", link: "/projekte/" },
       { text: "Team", link: "/team/" },
     ],
-
-    sidebar: {
-      "/projekte/": [
-        {
-          text: "Projekte",
-          items: [
-            { text: "Übersicht", link: "/projekte/" },
-            { text: "Beispielprojekt", link: "/projekte/beispielprojekt" },
-          ],
-        },
-      ],
-      "/blog/": [
-        {
-          text: "Blog",
-          items: [
-            { text: "Übersicht", link: "/blog/" },
-            {
-              text: "Digitalisierung von Medienbestellungen",
-              link: "/blog/2026-09-30-limos",
-            },
-            {
-              text: "Beispielbeitrag",
-              link: "/blog/2026-01-01-beispielbeitrag",
-            },
-          ],
-        },
-      ],
-    },
 
     socialLinks: [
       {

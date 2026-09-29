@@ -3,7 +3,7 @@ title: Beispielprojekt
 description: Diese Projektseite zeigt, wie Vorhaben im InnoLab dokumentiert werden.
 ---
 
-# Beispielprojekt
+# Beispielprojekt <Badge type="warning" text="In Arbeit" />
 
 Diese Seite dient als Vorlage für neue Projekte.
 
@@ -28,6 +28,16 @@ Fragen sind wertvoll.
 ## Nächste Schritte
 
 Halte fest, wie es weitergeht und wo andere Teams anknüpfen können.
+
+## Projektstatus
+
+Der aktuelle Stand wird als Badge hinter der Überschrift und in der
+[Projektübersicht](./index.md) angezeigt:
+
+| Status        | Badge                                       |
+| ------------- | ------------------------------------------- |
+| In Arbeit     | `<Badge type="warning" text="In Arbeit" />` |
+| Abgeschlossen | `<Badge type="tip" text="Abgeschlossen" />` |
 
 ## Frontmatter für neue Projekte
 

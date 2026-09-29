@@ -1,15 +1,19 @@
 ---
-title: "Projektabschlussbericht: Digitalisierung von Medienbestellungen"
-date: 2026-09-30
+title: Digitalisierung von Medienbestellungen
+description: Wie wir gemeinsam mit der Münchner Stadtbibliothek den Bestellprozess für Medien digitalisiert haben.
 ---
 
-# Projektabschlussbericht: Digitalisierung von Medienbestellungen
+# Digitalisierung von Medienbestellungen <Badge type="tip" text="Abgeschlossen" />
+
+Gemeinsam mit der Münchner Stadtbibliothek haben wir den Bestellprozess für Medien digital weiterentwickelt.
+
+**Partner:** Münchner Stadtbibliothek
+
+## Ausgangslage
 
 Die Münchner Stadtbibliothek steht allen offen und kann kostenlos vor Ort genutzt werden – ganz ohne Anmeldung. Wer zusätzlich Medien wie Bücher, Filme oder Games ausleihen möchte, benötigt ein eigenes Konto. Damit lassen sich nicht nur der Onlinekatalog durchsuchen und verfügbare Medien finden, sondern auch Bereitstellungen für die Ausleihe außer Haus veranlassen.
 
-Ist ein gewünschtes Medium bereits ausgeliehen oder am gewünschten Standort nicht verfügbar, kann es aus einer anderen Bibliothek bestellt oder vorgemerkt werden. Genau diesen Bestellprozess haben wir gemeinsam mit der Münchner Stadtbibliothek digital weiterentwickelt.
-
-## Wie läuft der Bestellprozess aktuell ab?
+Ist ein gewünschtes Medium bereits ausgeliehen oder am gewünschten Standort nicht verfügbar, kann es aus einer anderen Bibliothek bestellt oder vorgemerkt werden.
 
 <!-- Bild: Bibliotheksgang mit Bücherregalen -->
 <!-- _Ein Bibliotheksgang der Münchner Stadtbibliothek._ -->
@@ -31,7 +35,7 @@ Wurde ein Medium gefunden, wird es an der Kasse gescannt. Dabei entsteht ein zwe
 
 Für Medien, die an einen anderen Standort transportiert werden, kommen zusätzlich Papierfähnchen zum Einsatz. Sie erleichtern die spätere Zuordnung in der Zielbibliothek. So entstehen pro Bestellwunsch bis zu drei Ausdrucke – ein Prozess, der weder besonders effizient noch nachhaltig ist.
 
-## Digitalisierung der Medienbestellungen
+## Unser Ansatz
 
 Aus diesem Grund wurde ein Digitalisierungsprojekt initiiert. Ziel war es, die Abläufe papierärmer, effizienter und nutzungsfreundlicher zu gestalten.
 
@@ -41,7 +45,7 @@ Bereits kurz nach Projektbeginn wurde deutlich, dass sich viele Besonderheiten a
 
 Wenn ein Medium nicht sofort gefunden wird, haben die einzelnen Standorte zudem unterschiedliche Vorgehensweisen entwickelt, um dies für Kolleg*innen zu markieren und weiterzuverfolgen. Die konkreten Abläufe beim Sortieren und Suchen unterscheiden sich daher von Bibliothek zu Bibliothek.
 
-## Von Research zum Design
+### Von Research zum Design
 
 Um Unterschiede und Gemeinsamkeiten zwischen den Standorten besser zu verstehen, haben wir zunächst Interviews und Beobachtungen vor Ort durchgeführt. Im Rahmen dieser User Research war es uns wichtig, möglichst unterschiedliche Bibliotheken einzubeziehen.
 
@@ -53,7 +57,7 @@ Aus den ersten Tests konnten wir viele wertvolle Erkenntnisse gewinnen. Diese fl
 
 Durch dieses agile Vorgehen konnten wir gemeinsam mit dem Projektteam und den Nutzenden Schritt für Schritt eine möglichst passende Anwendung entwickeln.
 
-## Vorteile des UX-Vorgehens im Projekt
+### Vorteile des UX-Vorgehens im Projekt
 
 Der erste Schritt im Projekt war die Research: Wir wollten den bestehenden Prozess verstehen und konkrete Probleme identifizieren. Auf Basis der gewonnenen Erkenntnisse entwickelten wir Wireframes, um die grundlegenden Funktionen frühzeitig in Usability Tests überprüfen zu können.
 
@@ -63,13 +67,7 @@ Das Feedback zeigte schnell, dass wir auf dem richtigen Weg waren. Gleichzeitig 
 
 Der konsequente Fokus auf User Experience Design ermöglichte es uns, die Anwendung kontinuierlich zu verbessern und sowohl Logik als auch Gestaltung an die Bedürfnisse der Nutzenden anzupassen. Durch die Besuche an den einzelnen Standorten fühlten sich die Mitarbeitenden aktiv in die Entwicklung einbezogen. Das schafft eine wichtige Grundlage für einen reibungslosen Übergang vom papierbasierten zum digitalen Ablauf.
 
-## Wie geht es jetzt weiter?
-
-Das InnovationLab war bis zur Umsetzung des MVP (_Minimum Viable Product_) und den dazugehörigen Usability Tests beteiligt.
-
-Von Beginn an war eine Pilotphase vor dem vollständigen Rollout vorgesehen. Bis dahin wird die Anwendung weiterentwickelt, optimiert und um noch fehlende Funktionen ergänzt. Für die Pilotphase haben wir das Projektteam mit Tipps und Methoden unterstützt, um weiterhin strukturiert Feedback einzuholen und in die Weiterentwicklung einfließen zu lassen.
-
-## Was haben wir daraus gelernt?
+## Was wir gelernt haben
 
 Auch für uns war es das erste Projekt, in dem wir vom Projektstart bis zur Entwicklung einer fertigen Anwendung vollständig beteiligt waren. Die Zusammenarbeit mit den Entwickelnden verlief sehr gut. Gleichzeitig konnten wir viel über die Möglichkeiten von Eigenentwicklungen und deren Einfluss auf die Umsetzung unserer Designs lernen.
 
@@ -77,8 +75,12 @@ Bei Entscheidungen, bei denen der Fachbereich noch unsicher war, konnten die Erg
 
 Insgesamt sind wir sehr zufrieden damit, wie schnell eine entwickelte und getestete Anwendung entstehen konnte, die die unterschiedlichen Besonderheiten der Standorte berücksichtigt.
 
-Wir bedanken uns bei allen Projektbeteiligten und Research-Teilnehmenden für das Vertrauen und die engagierte Zusammenarbeit. Gemeinsam haben wir in kurzer Zeit eine wirklich gute Grundlage geschaffen – und sind gespannt darauf, wie sich die Anwendung nach der Pilotphase weiterentwickeln wird.
-
-## Der Prozess rund um die Bestellwünsche
-
 Die Digitalisierung der Medienbestellungen zeigt, wie wertvoll es ist, Mitarbeitende frühzeitig und kontinuierlich in Veränderungsprozesse einzubeziehen. Aus einem papierintensiven, individuell geprägten Ablauf entsteht so Schritt für Schritt eine digitale Lösung, die sich an der Praxis orientiert und den Arbeitsalltag in den Bibliotheken erleichtert.
+
+## Nächste Schritte
+
+Das InnovationLab war bis zur Umsetzung des MVP (_Minimum Viable Product_) und den dazugehörigen Usability Tests beteiligt.
+
+Von Beginn an war eine Pilotphase vor dem vollständigen Rollout vorgesehen. Bis dahin wird die Anwendung weiterentwickelt, optimiert und um noch fehlende Funktionen ergänzt. Für die Pilotphase haben wir das Projektteam mit Tipps und Methoden unterstützt, um weiterhin strukturiert Feedback einzuholen und in die Weiterentwicklung einfließen zu lassen.
+
+Wir bedanken uns bei allen Projektbeteiligten und Research-Teilnehmenden für das Vertrauen und die engagierte Zusammenarbeit. Gemeinsam haben wir in kurzer Zeit eine wirklich gute Grundlage geschaffen – und sind gespannt darauf, wie sich die Anwendung nach der Pilotphase weiterentwickeln wird.

@@ -44,7 +44,7 @@ innolab.muenchen.de/
 ├── public/                → static assets (images, favicon, …), served from site root
 ├── index.md              → home page
 ├── projekte/              → project overview + individual projects
-├── hackathons/            → hackathon overview, framework conditions, individual entries
+├── hackathons/            → hackathon framework conditions
 ├── blog/                  → blog posts
 └── team/                  → team page
 ```

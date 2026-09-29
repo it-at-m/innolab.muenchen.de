@@ -77,22 +77,6 @@ export default defineConfig({
           ],
         },
       ],
-      "/hackathons/": [
-        {
-          text: "Hackathons",
-          items: [
-            { text: "Übersicht", link: "/hackathons/" },
-            {
-              text: "Beispiel-Hackathon",
-              link: "/hackathons/beispiel-hackathon",
-            },
-            {
-              text: "Rahmenbedingungen",
-              link: "/hackathons/rahmenbedingungen",
-            },
-          ],
-        },
-      ],
     },
 
     socialLinks: [

@@ -6,8 +6,15 @@ export default defineConfig({
   base: "/",
   lang: "de-DE",
 
-  // Repo-root files that are not part of the website
-  srcExclude: ["README.md", "CODE_OF_CONDUCT.md", "LICENSE", "LICENSE.md"],
+  srcExclude: [
+    // Repo-root files that are not part of the website
+    "README.md",
+    "CODE_OF_CONDUCT.md",
+    "LICENSE",
+    "LICENSE.md",
+    // Hackathons are temporarily disabled
+    "hackathons/**",
+  ],
 
   markdown: {
     theme: {
@@ -47,7 +54,6 @@ export default defineConfig({
       { text: "Startseite", link: "/" },
       { text: "Blog", link: "/blog/" },
       { text: "Projekte", link: "/projekte/" },
-      { text: "Hackathons", link: "/hackathons/" },
       { text: "Team", link: "/team/" },
     ],
 

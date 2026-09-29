@@ -6,8 +6,14 @@ export default defineConfig({
   base: "/",
   lang: "de-DE",
 
-  // Repo-root files that are not part of the website
-  srcExclude: ["README.md", "CODE_OF_CONDUCT.md", "LICENSE", "LICENSE.md"],
+  // Repo-root files that are not part of the website, and the temporarily disabled blog
+  srcExclude: [
+    "README.md",
+    "CODE_OF_CONDUCT.md",
+    "LICENSE",
+    "LICENSE.md",
+    "blog/**",
+  ],
 
   markdown: {
     theme: {
@@ -45,55 +51,10 @@ export default defineConfig({
 
     nav: [
       { text: "Startseite", link: "/" },
-      { text: "Blog", link: "/blog/" },
       { text: "Projekte", link: "/projekte/" },
       { text: "Hackathons", link: "/hackathons/" },
       { text: "Team", link: "/team/" },
     ],
-
-    sidebar: {
-      "/projekte/": [
-        {
-          text: "Projekte",
-          items: [
-            { text: "Übersicht", link: "/projekte/" },
-            { text: "Beispielprojekt", link: "/projekte/beispielprojekt" },
-          ],
-        },
-      ],
-      "/blog/": [
-        {
-          text: "Blog",
-          items: [
-            { text: "Übersicht", link: "/blog/" },
-            {
-              text: "Digitalisierung von Medienbestellungen",
-              link: "/blog/2026-09-30-limos",
-            },
-            {
-              text: "Beispielbeitrag",
-              link: "/blog/2026-01-01-beispielbeitrag",
-            },
-          ],
-        },
-      ],
-      "/hackathons/": [
-        {
-          text: "Hackathons",
-          items: [
-            { text: "Übersicht", link: "/hackathons/" },
-            {
-              text: "Beispiel-Hackathon",
-              link: "/hackathons/beispiel-hackathon",
-            },
-            {
-              text: "Rahmenbedingungen",
-              link: "/hackathons/rahmenbedingungen",
-            },
-          ],
-        },
-      ],
-    },
 
     socialLinks: [
       {

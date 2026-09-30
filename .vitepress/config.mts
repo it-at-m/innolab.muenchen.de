@@ -6,13 +6,14 @@ export default defineConfig({
   base: "/",
   lang: "de-DE",
 
-  // Repo-root files that are not part of the website, and the temporarily disabled blog
   srcExclude: [
     "README.md",
     "CODE_OF_CONDUCT.md",
     "LICENSE",
     "LICENSE.md",
     "blog/**",
+    // Hackathons are temporarily disabled
+    "hackathons/**",
   ],
 
   markdown: {
@@ -52,7 +53,6 @@ export default defineConfig({
     nav: [
       { text: "Startseite", link: "/" },
       { text: "Projekte", link: "/projekte/" },
-      { text: "Hackathons", link: "/hackathons/" },
       { text: "Team", link: "/team/" },
     ],
 

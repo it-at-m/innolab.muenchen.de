@@ -1,8 +1,8 @@
 import { defineConfig } from "vitepress";
 
 export default defineConfig({
-  title: "it@M InnoLab",
-  description: "Website des InnoLab München",
+  title: "InnovationLab",
+  description: "Website des InnovationLab der Stadt München",
   base: "/",
   lang: "de-DE",
 

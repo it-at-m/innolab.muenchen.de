@@ -11,3 +11,4 @@ Münchner Stadtverwaltung. Die nachfolgende Übersicht befindet sich noch im Auf
 ## Übersicht
 
 - [Digitalisierung von Medienbestellungen](./limos.md) <Badge type="tip" text="Abgeschlossen" />
+- [Parkhausradar](./parkhausradar.md) <Badge type="tip" text="Abgeschlossen" />
